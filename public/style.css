@@ -1,0 +1,25 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Ubuntu, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.first-line,
+.second-line,
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  margin-left: 0.5rem;
+}
