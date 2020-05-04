@@ -15,7 +15,12 @@ app.use(logger("dev"));
 app.use(cors());
 app.use(express.static(path.join(__dirname, "../public")));
 
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
+  introspection: true,
+  playground: true,
+});
 server.applyMiddleware({ app, path: "/graphiql" });
 
 app.listen(port, () =>
