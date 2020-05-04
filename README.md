@@ -33,4 +33,4 @@ And then, start the rails server and add the variable to the `.env` file:
 
 - Start the server using the command `npm run start:dev`
 
-- Open the app on your browser using `localhost:3000`
+- Open the app on your browser using `localhost:8000`
